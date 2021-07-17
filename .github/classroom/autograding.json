@@ -1,0 +1,34 @@
+{
+  "tests": [
+    {
+      "name": "Initial Test",
+      "setup": "",
+      "run": "python3 main.py userA userM",
+      "input": "",
+      "output": "Distancia entre 'userA' y 'userM', es: 3",
+      "comparison": "included",
+      "timeout": 60,
+      "points": 5
+    },
+    {
+      "name": "Medium Test",
+      "setup": "",
+      "run": "python3 main.py userA userK",
+      "input": "",
+      "output": "Distancia entre 'userA' y 'userK', es: 4",
+      "comparison": "included",
+      "timeout": 60,
+      "points": 10
+    },
+    {
+      "name": "Advance Test",
+      "setup": "",
+      "run": "python3 main.py userZ userG",
+      "input": "",
+      "output": "Distancia entre 'userZ' y 'userG', es: 3",
+      "comparison": "included",
+      "timeout": 60,
+      "points": 15
+    }
+  ]
+}
